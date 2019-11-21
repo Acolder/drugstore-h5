@@ -1,0 +1,26 @@
+<template>
+  <div id="abnormal">
+    <a href="/">
+      <img src="./img/404.jpg" alt="">
+    </a>
+  </div>
+</template>
+<style lang="less" scoped>
+*{font-family:"Microsoft Yahei";margin:0;font-weight:lighter;text-decoration:none;text-align:center;line-height:2.2em;}
+html,body{height:100%;}
+h1{font-size:100px;line-height:1em;}
+table{width:100%;height:100%;border:0;}
+#abnormal{
+  width: 100%;
+  height: 100%;
+  a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+</style>
